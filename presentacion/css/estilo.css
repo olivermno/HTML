@@ -1,0 +1,135 @@
+*{
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: rgb(20, 68, 139);
+}
+#header{
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height:75px;
+	background: #3a7bd5;
+}
+
+#logo{
+	flex-basis: 55%;
+	flex-grow: 1;
+	padding:10px; 
+	margin-left: 20px;
+	color:rgb(209, 209, 209);
+}
+
+#logo h1{
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+#menu{
+	flex-grow: 1;
+	flex-basis: 30%;
+	height: 100%;
+	padding-right:20px;
+}
+
+#menu > ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+ 	list-style: none;
+
+}
+
+#menu a{
+	text-transform: uppercase;
+	color:white;
+	font-size:14px;
+	padding:10px;
+	transition: all 300ms;
+}
+
+
+
+.triangulo{
+	clip-path: polygon(50% 57%, 1% 0, 100% 0);
+	background:#3a7bd5;
+	width: 100px;
+	height: 70px;
+	margin: 0px auto;
+}
+#presentacion{
+	background-color: rgb(54, 99, 248);
+	width: 65%;
+	margin: 0px auto;
+}
+
+
+
+#presentacion{
+	height: 400px;
+}
+	
+
+/*Tarjetas*/
+#tarjetas{
+	display:flex;
+	/*Para mover elementos a la derecha*/
+	flex-direction: row;
+	flex-wrap:wrap;
+	height: 250px;
+	color:white;
+	justify-content: center;
+
+}
+
+
+.tareap{
+	flex-basis:25%;
+	flex-grow: 1;
+	order:1;
+	padding:80px;
+	justify-content: center;
+
+}
+
+.arreglo{
+	margin-left: 80px;
+}
+.tareap img{
+	border-radius:100px;
+}
+
+
+.tarjeta b{
+	color:#3140AF;
+}
+.columna{
+	padding-left: 20px;
+}
+
+.linea{
+	clip-path: inset(0 52% 0 44%);
+	background:#3140AF;
+	width: 50px;
+	height: 400px;
+	position:absolute;
+	top:16%;
+	right:48%;
+}
+#iconos{
+	display: flex;
+	list-style: none;
+	color: white;
+	padding-left: 5px;
+}
+
+#iconos img{
+	width: 20px;
+}
+
